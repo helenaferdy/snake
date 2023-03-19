@@ -1,5 +1,4 @@
 from snake import Snake
-import time
 from turtle import Screen
 
 screen = Screen()
@@ -17,7 +16,6 @@ while game_is_on:
     screen.onkey(snekz.move_down, "s")
     screen.onkey(snekz.move_right, "d")
 
-    time.sleep(0.1)
     screen.update()
 
 
