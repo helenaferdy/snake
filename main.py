@@ -2,7 +2,7 @@ from snake import Snake
 from turtle import Screen
 
 screen = Screen()
-screen.bgcolor("black")
+screen.bgcolor("pink")
 screen.tracer(0)
 screen.listen()
 snekz = Snake()
@@ -17,6 +17,7 @@ while game_is_on:
     screen.onkey(snekz.move_right, "d")
 
     screen.update()
+
 
 
 
