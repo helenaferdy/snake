@@ -49,7 +49,7 @@ class ScoreBoard(Turtle):
         self.fillcolor("white")
         self.hideturtle()
         self.goto(320, 370)
-        self.write(f"SCORE : 0", font=("Arial", 20, "normal"))
+        self.write(f"SCORE :", font=("Arial", 20, "normal"))
     
     def update_score(self, score):
         self.score = score

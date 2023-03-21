@@ -34,6 +34,20 @@ class Snake:
                 snake.goto(x, y)
         time.sleep(round(self.sleep, 3))
 
+    def snake_hit_right(self):
+        self.prevx, self.prevy = self.head.pos()
+        self.logz.info(f"snake hit right wall at {self.head.pos()}")
+        self.prevx = self.prevx - (self.prevx*2)
+        self.head.goto(self.prevx, self.prevy)
+        self.logz.info(f"snake spawns at left wall at {self.head.pos()}")
+
+    def snake_hit_left(self):
+        self.prevx, self.prevy = self.head.pos()
+        self.logz.info(f"snake hit left wall at {self.head.pos()}")
+        self.prevx = self.prevx + (self.prevx*-2)
+        self.head.goto(self.prevx, self.prevy)
+        self.logz.info(f"snake spawns at right wall at {self.head.pos()}")
+
     def spawn_snake(self):
         self.x = 0
         self.snakes = []
@@ -86,11 +100,7 @@ class Snake:
             self.very_random_number -= 1
 
     def end_game(self):
-        eg = Turtle()
-        eg.penup()
-        eg.color("white")
-        eg.fillcolor("white")
-        eg.hideturtle()
+        eg = ScoreBoard()
         eg.goto(-50, 0)
         eg.write(f"GAME OVER", font=("Arial", 20, "normal"))
         self.logz.info(f"game over at {self.head.pos()} with score {self.foodscore}")

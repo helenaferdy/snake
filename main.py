@@ -4,6 +4,10 @@ from wall import Wall
 from turtle import Screen
 import random
 
+UP = 90
+LEFT = 180
+DOWN = 270
+RIGHT = 0
 RAN_1 = -350
 RAN_2 = 350
 RAINBOW = ["green", "brown", "white", "yellow", "pink", "cyan"]
@@ -43,6 +47,12 @@ while game_is_on:
     if snekz.head.ycor() > 335 or snekz.head.ycor() < -375:
         game_is_on = False
         snekz.end_game()
+
+    if snekz.head.xcor() > 480 and snekz.head.heading() == RIGHT:
+        snekz.snake_hit_right()
+
+    if snekz.head.xcor() < -480 and snekz.head.heading() == LEFT:
+        snekz.snake_hit_left()
     
     screen.onkey(snekz.move_up, "w")
     screen.onkey(snekz.move_left, "a")

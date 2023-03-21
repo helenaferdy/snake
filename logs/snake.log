@@ -649,3 +649,518 @@
 2023-03-21 22:10:47,659 [INFO] food spawned at -149,350
 2023-03-21 22:10:47,659 [INFO] randompoint (7 : 8)
 2023-03-21 22:10:48,950 [INFO] game over at (-220.00,340.00) with score 1
+2023-03-21 22:12:29,732 [INFO] game over at (60.00,340.00) with score 0
+2023-03-21 22:18:38,544 [INFO] game over at (160.00,340.00) with score 0
+2023-03-21 22:18:49,681 [INFO] game over at (-40.00,340.00) with score 0
+2023-03-21 22:18:58,978 [INFO] snake eats food at (-220.00,100.00)
+2023-03-21 22:18:58,979 [INFO] snake speed 0.095
+2023-03-21 22:18:58,991 [INFO] food spawned at 111,59
+2023-03-21 22:18:58,992 [INFO] randompoint (8 : 8)
+2023-03-21 22:18:58,992 [INFO] turtle food spawned at -342,-283
+2023-03-21 22:19:01,452 [INFO] snake eats food at (120.00,60.00)
+2023-03-21 22:19:01,453 [INFO] snake speed 0.09
+2023-03-21 22:19:01,459 [INFO] food spawned at 60,88
+2023-03-21 22:19:01,459 [INFO] randompoint (1 : 8)
+2023-03-21 22:19:07,329 [INFO] snake eats food at (60.00,80.00)
+2023-03-21 22:19:07,330 [INFO] snake speed 0.085
+2023-03-21 22:19:07,341 [INFO] food spawned at 212,-25
+2023-03-21 22:19:07,341 [INFO] randompoint (8 : 8)
+2023-03-21 22:19:07,341 [INFO] turtle food spawned at -17,15
+2023-03-21 22:19:12,379 [INFO] snake eats turtle food at (-20.00,20.00)
+2023-03-21 22:19:12,379 [INFO] snake speed 0.105
+2023-03-21 22:19:12,383 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:19:24,947 [INFO] snake eats food at (200.00,-40.00)
+2023-03-21 22:19:24,947 [INFO] snake speed 0.095
+2023-03-21 22:19:24,961 [INFO] food spawned at -322,-315
+2023-03-21 22:19:24,961 [INFO] randompoint (3 : 6)
+2023-03-21 22:19:27,014 [INFO] game over at (200.00,340.00) with score 5
+2023-03-21 22:20:40,185 [INFO] snake hit right wall at (520.00,0.00)
+2023-03-21 22:20:40,186 [INFO] snake spawns at left wall at (-460.00,0.00)
+2023-03-21 22:20:50,882 [INFO] snake hit right wall at (520.00,80.00)
+2023-03-21 22:20:50,883 [INFO] snake spawns at left wall at (-460.00,80.00)
+2023-03-21 22:20:57,190 [INFO] snake hit right wall at (520.00,220.00)
+2023-03-21 22:20:57,191 [INFO] snake spawns at left wall at (-460.00,220.00)
+2023-03-21 22:21:06,340 [INFO] snake hit right wall at (520.00,-100.00)
+2023-03-21 22:21:06,340 [INFO] snake spawns at left wall at (-460.00,-100.00)
+2023-03-21 22:22:16,964 [INFO] snake hit right wall at (520.00,0.00)
+2023-03-21 22:22:16,965 [INFO] snake spawns at left wall at (-520.00,0.00)
+2023-03-21 22:22:22,940 [INFO] snake hit right wall at (520.00,-20.00)
+2023-03-21 22:22:22,940 [INFO] snake spawns at left wall at (-520.00,-20.00)
+2023-03-21 22:22:38,293 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:22:38,294 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:22:40,307 [INFO] snake eats food at (-240.00,100.00)
+2023-03-21 22:22:40,307 [INFO] snake speed 0.095
+2023-03-21 22:22:40,310 [INFO] food spawned at 296,-62
+2023-03-21 22:22:40,310 [INFO] randompoint (8 : 8)
+2023-03-21 22:22:40,310 [INFO] turtle food spawned at 222,273
+2023-03-21 22:22:44,796 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:22:44,797 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:22:50,345 [INFO] snake hit right wall at (500.00,40.00)
+2023-03-21 22:22:50,345 [INFO] snake spawns at left wall at (-500.00,40.00)
+2023-03-21 22:22:55,253 [INFO] snake eats food at (280.00,-60.00)
+2023-03-21 22:22:55,254 [INFO] snake speed 0.09
+2023-03-21 22:22:55,260 [INFO] food spawned at -198,-130
+2023-03-21 22:22:55,260 [INFO] randompoint (4 : 8)
+2023-03-21 22:22:56,432 [INFO] snake hit right wall at (500.00,-60.00)
+2023-03-21 22:22:56,433 [INFO] snake spawns at left wall at (-500.00,-60.00)
+2023-03-21 22:23:00,275 [INFO] snake eats food at (-200.00,-120.00)
+2023-03-21 22:23:00,276 [INFO] snake speed 0.085
+2023-03-21 22:23:00,288 [INFO] food spawned at -1,107
+2023-03-21 22:23:00,288 [INFO] randompoint (3 : 8)
+2023-03-21 22:23:02,691 [INFO] game over at (-160.00,340.00) with score 3
+2023-03-21 22:24:08,924 [INFO] snake hit left wall at (20.00,0.00)
+2023-03-21 22:24:08,924 [INFO] snake spawns at right wall at (60.00,0.00)
+2023-03-21 22:24:09,031 [INFO] snake hit left wall at (80.00,0.00)
+2023-03-21 22:24:09,031 [INFO] snake spawns at right wall at (240.00,0.00)
+2023-03-21 22:24:09,140 [INFO] snake hit left wall at (260.00,0.00)
+2023-03-21 22:24:09,141 [INFO] snake spawns at right wall at (780.00,0.00)
+2023-03-21 22:24:09,258 [INFO] snake hit right wall at (800.00,0.00)
+2023-03-21 22:24:09,259 [INFO] snake spawns at left wall at (-800.00,0.00)
+2023-03-21 22:24:11,220 [INFO] snake hit left wall at (-460.00,0.00)
+2023-03-21 22:24:11,221 [INFO] snake spawns at right wall at (-1380.00,0.00)
+2023-03-21 22:24:22,448 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:24:22,449 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:24:22,449 [INFO] snake hit left wall at (-500.00,0.00)
+2023-03-21 22:24:22,449 [INFO] snake spawns at right wall at (-1500.00,0.00)
+2023-03-21 22:24:22,558 [INFO] snake hit left wall at (-1480.00,0.00)
+2023-03-21 22:24:22,559 [INFO] snake spawns at right wall at (-4440.00,0.00)
+2023-03-21 22:24:22,676 [INFO] snake hit left wall at (-4420.00,0.00)
+2023-03-21 22:24:22,677 [INFO] snake spawns at right wall at (-13260.00,0.00)
+2023-03-21 22:24:22,782 [INFO] snake hit left wall at (-13240.00,0.00)
+2023-03-21 22:24:22,782 [INFO] snake spawns at right wall at (-39720.00,0.00)
+2023-03-21 22:24:22,889 [INFO] snake hit left wall at (-39700.00,0.00)
+2023-03-21 22:24:22,889 [INFO] snake spawns at right wall at (-119100.00,0.00)
+2023-03-21 22:24:22,998 [INFO] snake hit left wall at (-119080.00,0.00)
+2023-03-21 22:24:22,998 [INFO] snake spawns at right wall at (-357240.00,0.00)
+2023-03-21 22:24:23,116 [INFO] snake hit left wall at (-357220.00,0.00)
+2023-03-21 22:24:23,117 [INFO] snake spawns at right wall at (-1071660.00,0.00)
+2023-03-21 22:24:23,225 [INFO] snake hit left wall at (-1071640.00,0.00)
+2023-03-21 22:24:23,226 [INFO] snake spawns at right wall at (-3214920.00,0.00)
+2023-03-21 22:24:23,341 [INFO] snake hit left wall at (-3214900.00,0.00)
+2023-03-21 22:24:23,341 [INFO] snake spawns at right wall at (-9644700.00,0.00)
+2023-03-21 22:24:23,448 [INFO] snake hit left wall at (-9644680.00,0.00)
+2023-03-21 22:24:23,449 [INFO] snake spawns at right wall at (-28934040.00,0.00)
+2023-03-21 22:24:23,557 [INFO] snake hit left wall at (-28934020.00,0.00)
+2023-03-21 22:24:23,557 [INFO] snake spawns at right wall at (-86802060.00,0.00)
+2023-03-21 22:24:23,673 [INFO] snake hit left wall at (-86802040.00,0.00)
+2023-03-21 22:24:23,676 [INFO] snake spawns at right wall at (-260406120.00,0.00)
+2023-03-21 22:24:23,781 [INFO] snake hit left wall at (-260406100.00,0.00)
+2023-03-21 22:24:23,781 [INFO] snake spawns at right wall at (-781218300.00,0.00)
+2023-03-21 22:24:23,890 [INFO] snake hit left wall at (-781218280.00,0.00)
+2023-03-21 22:24:23,890 [INFO] snake spawns at right wall at (-2343654840.00,0.00)
+2023-03-21 22:24:23,998 [INFO] snake hit left wall at (-2343654820.00,0.00)
+2023-03-21 22:24:23,999 [INFO] snake spawns at right wall at (-7030964460.00,0.00)
+2023-03-21 22:24:24,116 [INFO] snake hit left wall at (-7030964440.00,0.00)
+2023-03-21 22:24:24,117 [INFO] snake spawns at right wall at (-21092893320.00,0.00)
+2023-03-21 22:24:24,226 [INFO] snake hit left wall at (-21092893300.00,0.00)
+2023-03-21 22:24:24,227 [INFO] snake spawns at right wall at (-63278679900.00,0.00)
+2023-03-21 22:24:24,343 [INFO] snake hit left wall at (-63278679880.00,0.00)
+2023-03-21 22:24:24,344 [INFO] snake spawns at right wall at (-189836039640.00,0.00)
+2023-03-21 22:24:24,452 [INFO] snake hit left wall at (-189836039620.00,0.00)
+2023-03-21 22:24:24,452 [INFO] snake spawns at right wall at (-569508118860.00,0.00)
+2023-03-21 22:24:24,569 [INFO] snake hit left wall at (-569508118840.00,0.00)
+2023-03-21 22:24:24,570 [INFO] snake spawns at right wall at (-1708524356520.00,0.00)
+2023-03-21 22:24:24,679 [INFO] snake hit left wall at (-1708524356500.00,0.00)
+2023-03-21 22:24:24,680 [INFO] snake spawns at right wall at (-5125573069500.00,0.00)
+2023-03-21 22:24:24,796 [INFO] snake hit left wall at (-5125573069480.00,0.00)
+2023-03-21 22:24:24,797 [INFO] snake spawns at right wall at (-15376719208440.00,0.00)
+2023-03-21 22:24:24,906 [INFO] snake hit left wall at (-15376719208420.00,0.00)
+2023-03-21 22:24:24,907 [INFO] snake spawns at right wall at (-46130157625260.00,0.00)
+2023-03-21 22:24:25,024 [INFO] snake hit left wall at (-46130157625240.00,0.00)
+2023-03-21 22:24:25,024 [INFO] snake spawns at right wall at (-138390472875720.00,0.00)
+2023-03-21 22:24:25,133 [INFO] snake hit left wall at (-138390472875700.00,0.00)
+2023-03-21 22:24:25,133 [INFO] snake spawns at right wall at (-415171418627100.00,0.00)
+2023-03-21 22:24:25,250 [INFO] snake hit left wall at (-415171418627080.00,0.00)
+2023-03-21 22:24:25,251 [INFO] snake spawns at right wall at (-1245514255881240.00,0.00)
+2023-03-21 22:24:25,359 [INFO] snake hit left wall at (-1245514255881220.00,0.00)
+2023-03-21 22:24:25,359 [INFO] snake spawns at right wall at (-3736542767643660.00,0.00)
+2023-03-21 22:24:25,474 [INFO] snake hit left wall at (-3736542767643640.00,0.00)
+2023-03-21 22:24:25,474 [INFO] snake spawns at right wall at (-11209628302930920.00,0.00)
+2023-03-21 22:24:25,581 [INFO] snake hit left wall at (-11209628302930900.00,0.00)
+2023-03-21 22:24:25,581 [INFO] snake spawns at right wall at (-33628884908792700.00,0.00)
+2023-03-21 22:24:25,691 [INFO] snake hit left wall at (-33628884908792680.00,0.00)
+2023-03-21 22:24:25,691 [INFO] snake spawns at right wall at (-100886654726378048.00,0.00)
+2023-03-21 22:24:25,799 [INFO] snake hit left wall at (-100886654726378032.00,0.00)
+2023-03-21 22:24:25,800 [INFO] snake spawns at right wall at (-302659964179134080.00,0.00)
+2023-03-21 22:24:25,917 [INFO] snake hit left wall at (-302659964179134080.00,0.00)
+2023-03-21 22:24:25,917 [INFO] snake spawns at right wall at (-907979892537402240.00,0.00)
+2023-03-21 22:24:26,029 [INFO] snake hit left wall at (-907979892537402240.00,0.00)
+2023-03-21 22:24:26,029 [INFO] snake spawns at right wall at (-2723939677612206592.00,0.00)
+2023-03-21 22:24:26,145 [INFO] snake hit left wall at (-2723939677612206592.00,0.00)
+2023-03-21 22:24:26,145 [INFO] snake spawns at right wall at (-8171819032836620288.00,0.00)
+2023-03-21 22:24:26,265 [INFO] snake hit left wall at (-8171819032836620288.00,0.00)
+2023-03-21 22:24:26,266 [INFO] snake spawns at right wall at (-24515457098509860864.00,0.00)
+2023-03-21 22:24:26,377 [INFO] snake hit left wall at (-24515457098509860864.00,0.00)
+2023-03-21 22:24:26,377 [INFO] snake spawns at right wall at (-73546371295529582592.00,0.00)
+2023-03-21 22:24:26,493 [INFO] snake hit left wall at (-73546371295529582592.00,0.00)
+2023-03-21 22:24:26,494 [INFO] snake spawns at right wall at (-220639113886588731392.00,0.00)
+2023-03-21 22:24:26,615 [INFO] snake hit left wall at (-220639113886588731392.00,0.00)
+2023-03-21 22:24:26,615 [INFO] snake spawns at right wall at (-661917341659766194176.00,0.00)
+2023-03-21 22:24:26,745 [INFO] snake hit left wall at (-661917341659766194176.00,0.00)
+2023-03-21 22:24:26,745 [INFO] snake spawns at right wall at (-1985752024979298582528.00,0.00)
+2023-03-21 22:24:26,864 [INFO] snake hit left wall at (-1985752024979298582528.00,0.00)
+2023-03-21 22:24:26,865 [INFO] snake spawns at right wall at (-5957256074937896009728.00,0.00)
+2023-03-21 22:25:50,214 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:25:50,216 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:25:55,869 [INFO] snake eats food at (-240.00,100.00)
+2023-03-21 22:25:55,869 [INFO] snake speed 0.095
+2023-03-21 22:25:55,872 [INFO] food spawned at 253,157
+2023-03-21 22:25:55,872 [INFO] randompoint (2 : 8)
+2023-03-21 22:25:57,277 [INFO] snake hit left wall at (-500.00,100.00)
+2023-03-21 22:25:57,277 [INFO] snake spawns at right wall at (-1500.00,100.00)
+2023-03-21 22:25:57,384 [INFO] snake hit left wall at (-1520.00,100.00)
+2023-03-21 22:25:57,385 [INFO] snake spawns at right wall at (-4560.00,100.00)
+2023-03-21 22:25:57,488 [INFO] snake hit left wall at (-4580.00,100.00)
+2023-03-21 22:25:57,489 [INFO] snake spawns at right wall at (-13740.00,100.00)
+2023-03-21 22:25:57,596 [INFO] snake hit left wall at (-13760.00,100.00)
+2023-03-21 22:25:57,597 [INFO] snake spawns at right wall at (-41280.00,100.00)
+2023-03-21 22:25:57,705 [INFO] snake hit left wall at (-41300.00,100.00)
+2023-03-21 22:25:57,705 [INFO] snake spawns at right wall at (-123900.00,100.00)
+2023-03-21 22:25:57,812 [INFO] snake hit left wall at (-123920.00,100.00)
+2023-03-21 22:25:57,812 [INFO] snake spawns at right wall at (-371760.00,100.00)
+2023-03-21 22:25:57,919 [INFO] snake hit left wall at (-371780.00,100.00)
+2023-03-21 22:25:57,919 [INFO] snake spawns at right wall at (-1115340.00,100.00)
+2023-03-21 22:25:58,025 [INFO] snake hit left wall at (-1115360.00,100.00)
+2023-03-21 22:25:58,026 [INFO] snake spawns at right wall at (-3346080.00,100.00)
+2023-03-21 22:25:58,129 [INFO] snake hit left wall at (-3346100.00,100.00)
+2023-03-21 22:25:58,130 [INFO] snake spawns at right wall at (-10038300.00,100.00)
+2023-03-21 22:25:58,235 [INFO] snake hit left wall at (-10038320.00,100.00)
+2023-03-21 22:25:58,235 [INFO] snake spawns at right wall at (-30114960.00,100.00)
+2023-03-21 22:25:58,342 [INFO] snake hit left wall at (-30114980.00,100.00)
+2023-03-21 22:25:58,343 [INFO] snake spawns at right wall at (-90344940.00,100.00)
+2023-03-21 22:25:58,452 [INFO] snake hit left wall at (-90344960.00,100.00)
+2023-03-21 22:25:58,452 [INFO] snake spawns at right wall at (-271034880.00,100.00)
+2023-03-21 22:25:58,559 [INFO] snake hit left wall at (-271034900.00,100.00)
+2023-03-21 22:25:58,559 [INFO] snake spawns at right wall at (-813104700.00,100.00)
+2023-03-21 22:25:58,665 [INFO] snake hit left wall at (-813104720.00,100.00)
+2023-03-21 22:25:58,665 [INFO] snake spawns at right wall at (-2439314160.00,100.00)
+2023-03-21 22:25:58,772 [INFO] snake hit left wall at (-2439314180.00,100.00)
+2023-03-21 22:25:58,772 [INFO] snake spawns at right wall at (-7317942540.00,100.00)
+2023-03-21 22:25:58,879 [INFO] snake hit left wall at (-7317942560.00,100.00)
+2023-03-21 22:25:58,879 [INFO] snake spawns at right wall at (-21953827680.00,100.00)
+2023-03-21 22:25:58,986 [INFO] snake hit left wall at (-21953827700.00,100.00)
+2023-03-21 22:25:58,986 [INFO] snake spawns at right wall at (-65861483100.00,100.00)
+2023-03-21 22:25:59,092 [INFO] snake hit left wall at (-65861483120.00,100.00)
+2023-03-21 22:25:59,092 [INFO] snake spawns at right wall at (-197584449360.00,100.00)
+2023-03-21 22:25:59,199 [INFO] snake hit left wall at (-197584449380.00,100.00)
+2023-03-21 22:25:59,199 [INFO] snake spawns at right wall at (-592753348140.00,100.00)
+2023-03-21 22:25:59,306 [INFO] snake hit left wall at (-592753348160.00,100.00)
+2023-03-21 22:25:59,306 [INFO] snake spawns at right wall at (-1778260044480.00,100.00)
+2023-03-21 22:25:59,412 [INFO] snake hit left wall at (-1778260044500.00,100.00)
+2023-03-21 22:25:59,413 [INFO] snake spawns at right wall at (-5334780133500.00,100.00)
+2023-03-21 22:25:59,519 [INFO] snake hit left wall at (-5334780133520.00,100.00)
+2023-03-21 22:25:59,519 [INFO] snake spawns at right wall at (-16004340400560.00,100.00)
+2023-03-21 22:25:59,626 [INFO] snake hit left wall at (-16004340400580.00,100.00)
+2023-03-21 22:25:59,626 [INFO] snake spawns at right wall at (-48013021201740.00,100.00)
+2023-03-21 22:25:59,733 [INFO] snake hit left wall at (-48013021201760.00,100.00)
+2023-03-21 22:25:59,734 [INFO] snake spawns at right wall at (-144039063605280.00,100.00)
+2023-03-21 22:25:59,840 [INFO] snake hit left wall at (-144039063605300.00,100.00)
+2023-03-21 22:25:59,840 [INFO] snake spawns at right wall at (-432117190815900.00,100.00)
+2023-03-21 22:25:59,947 [INFO] snake hit left wall at (-432117190815920.00,100.00)
+2023-03-21 22:25:59,947 [INFO] snake spawns at right wall at (-1296351572447760.00,100.00)
+2023-03-21 22:26:00,055 [INFO] snake hit left wall at (-1296351572447780.00,100.00)
+2023-03-21 22:26:00,055 [INFO] snake spawns at right wall at (-3889054717343340.00,100.00)
+2023-03-21 22:26:00,158 [INFO] snake hit left wall at (-3889054717343360.00,100.00)
+2023-03-21 22:26:00,159 [INFO] snake spawns at right wall at (-11667164152030080.00,100.00)
+2023-03-21 22:26:00,266 [INFO] snake hit left wall at (-11667164152030100.00,100.00)
+2023-03-21 22:26:00,266 [INFO] snake spawns at right wall at (-35001492456090300.00,100.00)
+2023-03-21 22:26:00,372 [INFO] snake hit left wall at (-35001492456090320.00,100.00)
+2023-03-21 22:26:00,372 [INFO] snake spawns at right wall at (-105004477368270960.00,100.00)
+2023-03-21 22:26:00,481 [INFO] snake hit left wall at (-105004477368270976.00,100.00)
+2023-03-21 22:26:00,482 [INFO] snake spawns at right wall at (-315013432104812928.00,100.00)
+2023-03-21 22:26:00,592 [INFO] snake hit left wall at (-315013432104812928.00,100.00)
+2023-03-21 22:26:00,592 [INFO] snake spawns at right wall at (-945040296314438784.00,100.00)
+2023-03-21 22:26:00,706 [INFO] snake hit left wall at (-945040296314438784.00,100.00)
+2023-03-21 22:26:00,707 [INFO] snake spawns at right wall at (-2835120888943316480.00,100.00)
+2023-03-21 22:27:20,951 [INFO] snake hit right wall at (500.00,40.00)
+2023-03-21 22:27:20,952 [INFO] snake spawns at left wall at (-500.00,40.00)
+2023-03-21 22:27:22,632 [INFO] snake hit left wall at (-500.00,60.00)
+2023-03-21 22:27:22,633 [INFO] snake spawns at right wall at (500.00,60.00)
+2023-03-21 22:27:25,233 [INFO] snake hit right wall at (500.00,80.00)
+2023-03-21 22:27:25,233 [INFO] snake spawns at left wall at (-500.00,80.00)
+2023-03-21 22:27:26,260 [INFO] snake hit left wall at (-500.00,180.00)
+2023-03-21 22:27:26,261 [INFO] snake spawns at right wall at (500.00,180.00)
+2023-03-21 22:27:28,821 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:27:28,822 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:27:33,209 [INFO] snake hit left wall at (-500.00,-140.00)
+2023-03-21 22:27:33,210 [INFO] snake spawns at right wall at (500.00,-140.00)
+2023-03-21 22:27:34,666 [INFO] snake hit right wall at (500.00,0.00)
+2023-03-21 22:27:34,666 [INFO] snake spawns at left wall at (-500.00,0.00)
+2023-03-21 22:27:35,917 [INFO] snake hit left wall at (-500.00,60.00)
+2023-03-21 22:27:35,918 [INFO] snake spawns at right wall at (500.00,60.00)
+2023-03-21 22:27:37,479 [INFO] snake hit right wall at (500.00,-60.00)
+2023-03-21 22:27:37,479 [INFO] snake spawns at left wall at (-500.00,-60.00)
+2023-03-21 22:27:38,718 [INFO] snake hit left wall at (-500.00,0.00)
+2023-03-21 22:27:38,718 [INFO] snake spawns at right wall at (500.00,0.00)
+2023-03-21 22:27:42,068 [INFO] snake hit right wall at (500.00,-200.00)
+2023-03-21 22:27:42,069 [INFO] snake spawns at left wall at (-500.00,-200.00)
+2023-03-21 22:27:45,895 [INFO] snake hit left wall at (-500.00,160.00)
+2023-03-21 22:27:45,895 [INFO] snake spawns at right wall at (500.00,160.00)
+2023-03-21 22:27:49,175 [INFO] snake hit right wall at (500.00,-100.00)
+2023-03-21 22:27:49,176 [INFO] snake spawns at left wall at (-500.00,-100.00)
+2023-03-21 22:27:52,912 [INFO] snake eats food at (-240.00,100.00)
+2023-03-21 22:27:52,912 [INFO] snake speed 0.095
+2023-03-21 22:27:52,925 [INFO] food spawned at 249,191
+2023-03-21 22:27:52,925 [INFO] randompoint (2 : 8)
+2023-03-21 22:27:54,852 [INFO] snake hit left wall at (-480.00,60.00)
+2023-03-21 22:27:54,853 [INFO] snake spawns at right wall at (480.00,60.00)
+2023-03-21 22:27:56,666 [INFO] snake eats food at (260.00,180.00)
+2023-03-21 22:27:56,667 [INFO] snake speed 0.09
+2023-03-21 22:27:56,673 [INFO] food spawned at -286,265
+2023-03-21 22:27:56,673 [INFO] randompoint (1 : 8)
+2023-03-21 22:28:00,327 [INFO] game over at (-260.00,340.00) with score 2
+2023-03-21 22:28:41,808 [INFO] snake eats food at (-220.00,100.00)
+2023-03-21 22:28:41,809 [INFO] snake speed 0.095
+2023-03-21 22:28:41,812 [INFO] food spawned at 13,-168
+2023-03-21 22:28:41,812 [INFO] randompoint (3 : 8)
+2023-03-21 22:28:44,289 [INFO] game over at (-440.00,340.00) with score 1
+2023-03-21 22:29:05,550 [INFO] snake eats food at (-220.00,100.00)
+2023-03-21 22:29:05,551 [INFO] snake speed 0.095
+2023-03-21 22:29:05,564 [INFO] food spawned at -323,-317
+2023-03-21 22:29:05,564 [INFO] randompoint (2 : 8)
+2023-03-21 22:29:08,879 [INFO] snake eats food at (-340.00,-320.00)
+2023-03-21 22:29:08,880 [INFO] snake speed 0.09
+2023-03-21 22:29:08,885 [INFO] food spawned at 326,248
+2023-03-21 22:29:08,885 [INFO] randompoint (1 : 8)
+2023-03-21 22:29:12,941 [INFO] snake hit left wall at (-500.00,-320.00)
+2023-03-21 22:29:12,942 [INFO] snake spawns at right wall at (500.00,-320.00)
+2023-03-21 22:29:14,862 [INFO] snake hit right wall at (500.00,-160.00)
+2023-03-21 22:29:14,862 [INFO] snake spawns at left wall at (-500.00,-160.00)
+2023-03-21 22:29:16,142 [INFO] snake hit left wall at (-500.00,-40.00)
+2023-03-21 22:29:16,143 [INFO] snake spawns at right wall at (500.00,-40.00)
+2023-03-21 22:29:18,383 [INFO] snake hit right wall at (500.00,100.00)
+2023-03-21 22:29:18,383 [INFO] snake spawns at left wall at (-500.00,100.00)
+2023-03-21 22:29:19,877 [INFO] snake hit left wall at (-500.00,260.00)
+2023-03-21 22:29:19,877 [INFO] snake spawns at right wall at (500.00,260.00)
+2023-03-21 22:29:20,717 [INFO] snake eats food at (340.00,260.00)
+2023-03-21 22:29:20,718 [INFO] snake speed 0.085
+2023-03-21 22:29:20,729 [INFO] food spawned at 328,317
+2023-03-21 22:29:20,730 [INFO] randompoint (4 : 8)
+2023-03-21 22:29:24,516 [INFO] snake eats food at (320.00,320.00)
+2023-03-21 22:29:24,517 [INFO] snake speed 0.08
+2023-03-21 22:29:24,519 [INFO] food spawned at 98,-152
+2023-03-21 22:29:24,519 [INFO] randompoint (3 : 6)
+2023-03-21 22:29:28,257 [INFO] snake eats food at (100.00,-140.00)
+2023-03-21 22:29:28,258 [INFO] snake speed 0.075
+2023-03-21 22:29:28,265 [INFO] food spawned at 222,144
+2023-03-21 22:29:28,265 [INFO] randompoint (6 : 6)
+2023-03-21 22:29:28,266 [INFO] turtle food spawned at -201,-249
+2023-03-21 22:29:31,040 [INFO] snake eats turtle food at (-200.00,-240.00)
+2023-03-21 22:29:31,040 [INFO] snake speed 0.095
+2023-03-21 22:29:31,053 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:29:36,395 [INFO] snake eats food at (220.00,140.00)
+2023-03-21 22:29:36,395 [INFO] snake speed 0.09
+2023-03-21 22:29:36,402 [INFO] food spawned at 2,-332
+2023-03-21 22:29:36,402 [INFO] randompoint (1 : 6)
+2023-03-21 22:29:40,458 [INFO] snake eats food at (20.00,-340.00)
+2023-03-21 22:29:40,459 [INFO] snake speed 0.085
+2023-03-21 22:29:40,470 [INFO] food spawned at 285,305
+2023-03-21 22:29:40,470 [INFO] randompoint (1 : 4)
+2023-03-21 22:29:46,390 [INFO] snake eats food at (300.00,300.00)
+2023-03-21 22:29:46,391 [INFO] snake speed 0.08
+2023-03-21 22:29:46,393 [INFO] food spawned at -261,164
+2023-03-21 22:29:46,394 [INFO] randompoint (3 : 4)
+2023-03-21 22:29:49,665 [INFO] snake eats food at (-260.00,160.00)
+2023-03-21 22:29:49,665 [INFO] snake speed 0.075
+2023-03-21 22:29:49,673 [INFO] food spawned at 197,128
+2023-03-21 22:29:49,673 [INFO] randompoint (3 : 4)
+2023-03-21 22:29:53,008 [INFO] snake eats food at (180.00,120.00)
+2023-03-21 22:29:53,008 [INFO] snake speed 0.07
+2023-03-21 22:29:53,021 [INFO] food spawned at 88,273
+2023-03-21 22:29:53,021 [INFO] randompoint (2 : 4)
+2023-03-21 22:29:55,267 [INFO] snake eats food at (100.00,280.00)
+2023-03-21 22:29:55,267 [INFO] snake speed 0.065
+2023-03-21 22:29:55,275 [INFO] food spawned at 343,134
+2023-03-21 22:29:55,275 [INFO] randompoint (2 : 4)
+2023-03-21 22:29:57,999 [INFO] snake eats food at (340.00,120.00)
+2023-03-21 22:29:58,000 [INFO] snake speed 0.06
+2023-03-21 22:29:58,009 [INFO] food spawned at 85,-237
+2023-03-21 22:29:58,010 [INFO] randompoint (1 : 4)
+2023-03-21 22:29:58,598 [INFO] snake hit right wall at (500.00,120.00)
+2023-03-21 22:29:58,598 [INFO] snake spawns at left wall at (-500.00,120.00)
+2023-03-21 22:30:00,942 [INFO] snake hit left wall at (-500.00,-240.00)
+2023-03-21 22:30:00,942 [INFO] snake spawns at right wall at (500.00,-240.00)
+2023-03-21 22:30:02,746 [INFO] snake eats food at (80.00,-220.00)
+2023-03-21 22:30:02,746 [INFO] snake speed 0.055
+2023-03-21 22:30:02,758 [INFO] food spawned at 60,-240
+2023-03-21 22:30:02,758 [INFO] randompoint (3 : 4)
+2023-03-21 22:30:04,366 [INFO] snake eats food at (60.00,-240.00)
+2023-03-21 22:30:04,366 [INFO] snake speed 0.05
+2023-03-21 22:30:04,372 [INFO] food spawned at 245,74
+2023-03-21 22:30:04,372 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:06,761 [INFO] snake eats food at (260.00,80.00)
+2023-03-21 22:30:06,761 [INFO] snake speed 0.045
+2023-03-21 22:30:06,772 [INFO] food spawned at 213,-283
+2023-03-21 22:30:06,773 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:08,263 [INFO] snake hit right wall at (500.00,-0.00)
+2023-03-21 22:30:08,264 [INFO] snake spawns at left wall at (-500.00,-0.00)
+2023-03-21 22:30:11,027 [INFO] snake eats food at (200.00,-280.00)
+2023-03-21 22:30:11,028 [INFO] snake speed 0.04
+2023-03-21 22:30:11,041 [INFO] food spawned at -53,240
+2023-03-21 22:30:11,041 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:11,846 [INFO] snake hit right wall at (500.00,-280.00)
+2023-03-21 22:30:11,846 [INFO] snake spawns at left wall at (-500.00,-280.00)
+2023-03-21 22:30:14,620 [INFO] snake eats food at (-60.00,240.00)
+2023-03-21 22:30:14,620 [INFO] snake speed 0.037
+2023-03-21 22:30:14,628 [INFO] food spawned at 151,146
+2023-03-21 22:30:14,629 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:16,697 [INFO] snake eats food at (140.00,140.00)
+2023-03-21 22:30:16,697 [INFO] snake speed 0.035
+2023-03-21 22:30:16,709 [INFO] food spawned at -244,-151
+2023-03-21 22:30:16,710 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:18,497 [INFO] snake eats food at (-260.00,-140.00)
+2023-03-21 22:30:18,497 [INFO] snake speed 0.032
+2023-03-21 22:30:18,510 [INFO] food spawned at -267,-299
+2023-03-21 22:30:18,510 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:20,224 [INFO] snake eats food at (-260.00,-300.00)
+2023-03-21 22:30:20,225 [INFO] snake speed 0.03
+2023-03-21 22:30:20,230 [INFO] food spawned at 84,108
+2023-03-21 22:30:20,230 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:21,759 [INFO] snake eats food at (80.00,120.00)
+2023-03-21 22:30:21,759 [INFO] snake speed 0.027
+2023-03-21 22:30:21,764 [INFO] food spawned at 63,3
+2023-03-21 22:30:21,764 [INFO] randompoint (3 : 3)
+2023-03-21 22:30:21,764 [INFO] turtle food spawned at -166,84
+2023-03-21 22:30:23,143 [INFO] snake eats turtle food at (-160.00,80.00)
+2023-03-21 22:30:23,143 [INFO] snake speed 0.047
+2023-03-21 22:30:23,152 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:30:24,698 [INFO] snake eats food at (60.00,-0.00)
+2023-03-21 22:30:24,698 [INFO] snake speed 0.042
+2023-03-21 22:30:24,712 [INFO] food spawned at -36,-236
+2023-03-21 22:30:24,712 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:26,534 [INFO] snake eats food at (-20.00,-240.00)
+2023-03-21 22:30:26,535 [INFO] snake speed 0.037
+2023-03-21 22:30:26,540 [INFO] food spawned at 274,277
+2023-03-21 22:30:26,540 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:29,422 [INFO] snake hit left wall at (-500.00,320.00)
+2023-03-21 22:30:29,422 [INFO] snake spawns at right wall at (500.00,320.00)
+2023-03-21 22:30:30,700 [INFO] snake eats food at (260.00,280.00)
+2023-03-21 22:30:30,701 [INFO] snake speed 0.035
+2023-03-21 22:30:30,714 [INFO] food spawned at -216,336
+2023-03-21 22:30:30,714 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:33,914 [INFO] snake eats food at (-220.00,320.00)
+2023-03-21 22:30:33,914 [INFO] snake speed 0.032
+2023-03-21 22:30:33,916 [INFO] food spawned at 266,-292
+2023-03-21 22:30:33,916 [INFO] randompoint (3 : 3)
+2023-03-21 22:30:33,916 [INFO] turtle food spawned at 8,-40
+2023-03-21 22:30:34,498 [INFO] snake hit left wall at (-480.00,320.00)
+2023-03-21 22:30:34,498 [INFO] snake spawns at right wall at (480.00,320.00)
+2023-03-21 22:30:36,313 [INFO] snake eats turtle food at (0.00,-40.00)
+2023-03-21 22:30:36,314 [INFO] snake speed 0.052
+2023-03-21 22:30:36,316 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:30:38,588 [INFO] snake eats food at (280.00,-280.00)
+2023-03-21 22:30:38,588 [INFO] snake speed 0.047
+2023-03-21 22:30:38,597 [INFO] food spawned at 129,-145
+2023-03-21 22:30:38,597 [INFO] randompoint (3 : 3)
+2023-03-21 22:30:38,597 [INFO] turtle food spawned at -204,-71
+2023-03-21 22:30:40,720 [INFO] snake eats turtle food at (-200.00,-80.00)
+2023-03-21 22:30:40,721 [INFO] snake speed 0.067
+2023-03-21 22:30:40,731 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:30:42,738 [INFO] snake eats food at (120.00,-140.00)
+2023-03-21 22:30:42,739 [INFO] snake speed 0.062
+2023-03-21 22:30:42,745 [INFO] food spawned at 302,180
+2023-03-21 22:30:42,745 [INFO] randompoint (2 : 3)
+2023-03-21 22:30:44,187 [INFO] snake hit right wall at (480.00,-140.00)
+2023-03-21 22:30:44,187 [INFO] snake spawns at left wall at (-480.00,-140.00)
+2023-03-21 22:30:46,081 [INFO] snake hit left wall at (-480.00,140.00)
+2023-03-21 22:30:46,081 [INFO] snake spawns at right wall at (480.00,140.00)
+2023-03-21 22:30:46,962 [INFO] snake eats food at (300.00,180.00)
+2023-03-21 22:30:46,962 [INFO] snake speed 0.057
+2023-03-21 22:30:46,974 [INFO] food spawned at -57,-293
+2023-03-21 22:30:46,974 [INFO] randompoint (1 : 3)
+2023-03-21 22:30:47,600 [INFO] snake hit right wall at (480.00,180.00)
+2023-03-21 22:30:47,601 [INFO] snake spawns at left wall at (-480.00,180.00)
+2023-03-21 22:30:50,704 [INFO] snake eats food at (-60.00,-280.00)
+2023-03-21 22:30:50,705 [INFO] snake speed 0.052
+2023-03-21 22:30:50,708 [INFO] food spawned at -275,190
+2023-03-21 22:30:50,709 [INFO] randompoint (3 : 3)
+2023-03-21 22:30:50,709 [INFO] turtle food spawned at 78,-162
+2023-03-21 22:30:53,513 [INFO] snake eats turtle food at (60.00,-160.00)
+2023-03-21 22:30:53,513 [INFO] snake speed 0.072
+2023-03-21 22:30:53,522 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:30:55,414 [INFO] snake hit right wall at (500.00,-160.00)
+2023-03-21 22:30:55,415 [INFO] snake spawns at left wall at (-500.00,-160.00)
+2023-03-21 22:30:59,670 [INFO] snake hit right wall at (480.00,-160.00)
+2023-03-21 22:30:59,670 [INFO] snake spawns at left wall at (-480.00,-160.00)
+2023-03-21 22:31:01,033 [INFO] snake hit left wall at (-480.00,-40.00)
+2023-03-21 22:31:01,033 [INFO] snake spawns at right wall at (480.00,-40.00)
+2023-03-21 22:31:04,154 [INFO] snake hit right wall at (480.00,-120.00)
+2023-03-21 22:31:04,154 [INFO] snake spawns at left wall at (-480.00,-120.00)
+2023-03-21 22:31:07,272 [INFO] snake eats food at (-280.00,200.00)
+2023-03-21 22:31:07,272 [INFO] snake speed 0.067
+2023-03-21 22:31:07,275 [INFO] food spawned at 166,237
+2023-03-21 22:31:07,276 [INFO] randompoint (2 : 3)
+2023-03-21 22:31:09,201 [INFO] snake eats food at (160.00,240.00)
+2023-03-21 22:31:09,202 [INFO] snake speed 0.062
+2023-03-21 22:31:09,208 [INFO] food spawned at 293,-278
+2023-03-21 22:31:09,208 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:09,208 [INFO] turtle food spawned at -95,-31
+2023-03-21 22:31:11,677 [INFO] snake hit right wall at (500.00,-40.00)
+2023-03-21 22:31:11,678 [INFO] snake spawns at left wall at (-500.00,-40.00)
+2023-03-21 22:31:13,278 [INFO] snake eats turtle food at (-100.00,-40.00)
+2023-03-21 22:31:13,279 [INFO] snake speed 0.082
+2023-03-21 22:31:13,290 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:31:16,207 [INFO] snake eats food at (300.00,-260.00)
+2023-03-21 22:31:16,207 [INFO] snake speed 0.077
+2023-03-21 22:31:16,211 [INFO] food spawned at -10,-147
+2023-03-21 22:31:16,211 [INFO] randompoint (2 : 3)
+2023-03-21 22:31:17,054 [INFO] snake hit right wall at (480.00,-260.00)
+2023-03-21 22:31:17,054 [INFO] snake spawns at left wall at (-480.00,-260.00)
+2023-03-21 22:31:19,762 [INFO] snake eats food at (-20.00,-140.00)
+2023-03-21 22:31:19,762 [INFO] snake speed 0.072
+2023-03-21 22:31:19,772 [INFO] food spawned at 44,-79
+2023-03-21 22:31:19,772 [INFO] randompoint (1 : 3)
+2023-03-21 22:31:20,904 [INFO] snake eats food at (40.00,-60.00)
+2023-03-21 22:31:20,904 [INFO] snake speed 0.067
+2023-03-21 22:31:20,908 [INFO] food spawned at 315,269
+2023-03-21 22:31:20,908 [INFO] randompoint (2 : 3)
+2023-03-21 22:31:24,593 [INFO] snake eats food at (300.00,280.00)
+2023-03-21 22:31:24,594 [INFO] snake speed 0.062
+2023-03-21 22:31:24,600 [INFO] food spawned at 318,-118
+2023-03-21 22:31:24,600 [INFO] randompoint (1 : 3)
+2023-03-21 22:31:25,386 [INFO] snake hit right wall at (500.00,280.00)
+2023-03-21 22:31:25,386 [INFO] snake spawns at left wall at (-500.00,280.00)
+2023-03-21 22:31:28,216 [INFO] snake hit left wall at (-500.00,-140.00)
+2023-03-21 22:31:28,217 [INFO] snake spawns at right wall at (500.00,-140.00)
+2023-03-21 22:31:30,057 [INFO] snake eats food at (300.00,-120.00)
+2023-03-21 22:31:30,057 [INFO] snake speed 0.057
+2023-03-21 22:31:30,069 [INFO] food spawned at 42,180
+2023-03-21 22:31:30,069 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:30,069 [INFO] turtle food spawned at -18,-32
+2023-03-21 22:31:30,773 [INFO] snake hit right wall at (500.00,-120.00)
+2023-03-21 22:31:30,773 [INFO] snake spawns at left wall at (-500.00,-120.00)
+2023-03-21 22:31:32,790 [INFO] snake eats turtle food at (-20.00,-40.00)
+2023-03-21 22:31:32,791 [INFO] snake speed 0.077
+2023-03-21 22:31:32,803 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:31:36,635 [INFO] snake eats food at (60.00,180.00)
+2023-03-21 22:31:36,635 [INFO] snake speed 0.072
+2023-03-21 22:31:36,645 [INFO] food spawned at -321,111
+2023-03-21 22:31:36,645 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:36,645 [INFO] turtle food spawned at -340,-126
+2023-03-21 22:31:38,630 [INFO] snake eats food at (-320.00,120.00)
+2023-03-21 22:31:38,630 [INFO] snake speed 0.067
+2023-03-21 22:31:38,634 [INFO] food spawned at 22,-224
+2023-03-21 22:31:38,634 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:38,634 [INFO] turtle food spawned at -89,215
+2023-03-21 22:31:41,440 [INFO] snake eats food at (20.00,-240.00)
+2023-03-21 22:31:41,440 [INFO] snake speed 0.062
+2023-03-21 22:31:41,446 [INFO] food spawned at -210,163
+2023-03-21 22:31:41,446 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:41,446 [INFO] turtle food spawned at 58,-27
+2023-03-21 22:31:46,237 [INFO] snake eats turtle food at (40.00,-20.00)
+2023-03-21 22:31:46,237 [INFO] snake speed 0.082
+2023-03-21 22:31:46,248 [INFO] turtle food spawned at -900,-900
+2023-03-21 22:31:50,458 [INFO] snake eats food at (-220.00,160.00)
+2023-03-21 22:31:50,458 [INFO] snake speed 0.077
+2023-03-21 22:31:50,463 [INFO] food spawned at 149,-214
+2023-03-21 22:31:50,463 [INFO] randompoint (1 : 3)
+2023-03-21 22:31:54,108 [INFO] snake eats food at (160.00,-200.00)
+2023-03-21 22:31:54,108 [INFO] snake speed 0.072
+2023-03-21 22:31:54,118 [INFO] food spawned at -295,-194
+2023-03-21 22:31:54,118 [INFO] randompoint (1 : 3)
+2023-03-21 22:31:56,389 [INFO] snake eats food at (-280.00,-200.00)
+2023-03-21 22:31:56,389 [INFO] snake speed 0.067
+2023-03-21 22:31:56,398 [INFO] food spawned at 108,167
+2023-03-21 22:31:56,399 [INFO] randompoint (3 : 3)
+2023-03-21 22:31:56,399 [INFO] turtle food spawned at -36,309
+2023-03-21 22:31:58,667 [INFO] game over at (-300.00,340.00) with score 50
