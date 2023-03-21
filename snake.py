@@ -8,7 +8,6 @@ DOWN = 270
 RIGHT = 0
 RAN_1 = -350
 RAN_2 = 350
-VERY_RANDOM_NUMBER = 5
 
 class Snake:
     def __init__(self):
@@ -46,29 +45,6 @@ class Snake:
     def snake_run(self):
         self.prevx = 0
         self.prevy = 0
-        if self.head.distance(self.food) < 20:
-            self.score.clear()
-            self.foodscore +=1
-            self.food.goto(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
-            self.score.write(f"SCORE : {self.foodscore}", font=("Arial", 20, "normal"))
-            self.extend_snake()
-            if self.sleep > 0.04:
-                self.sleep -= 0.005
-            elif self.sleep > 0.02:
-                self.sleep -= 0.0025
-            else:
-                self.sleep -= 0.00125
-
-            if random.randint(0, VERY_RANDOM_NUMBER) == VERY_RANDOM_NUMBER:
-                self.turtlefood.goto(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
-
-        if self.head.distance(self.turtlefood) < 20:
-            self.score.clear()
-            self.turtlefood.goto(-900,-900)
-            self.foodscore +=1
-            self.score.write(f"SCORE : {self.foodscore}", font=("Arial", 20, "normal"))
-            self.sleep += 0.020
-
         for snake in self.snakes:
             if snake == self.head:
                 self.prevx, self.prevy = snake.pos()
@@ -111,7 +87,7 @@ class Snake:
         self.food.penup()
         self.food.shape("circle")
         self.food.shapesize(stretch_len=0.5, stretch_wid=0.5)
-        self.food.color("red")
+        self.food.color("pink")
         self.food.goto(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
 
 
@@ -119,7 +95,7 @@ class Snake:
         self.turtlefood = Turtle()
         self.turtlefood.shape("turtle")
         self.turtlefood.penup()
-        self.turtlefood.color("gray")
+        self.turtlefood.color("cyan")
         self.turtlefood.goto(-900,-900)
     
 
