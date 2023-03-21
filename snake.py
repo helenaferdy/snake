@@ -23,9 +23,10 @@ class Snake:
     def __init__(self):
         self.foodscore = 0
         self.very_random_number = 8
+        self.sleep = 0.10
+
         self.spawn_snake()
         self.head = self.snakes[0]
-        self.sleep = 0.10
         self.scorz = ScoreBoard()
     
     def snake_run(self):
@@ -70,13 +71,11 @@ class Snake:
             self.sleep -= 0.0025
         else:
             self.sleep -= 0.00125
-        self.increase_turtle_odd()
         self.refresh()
 
     def slow_down(self):
         logging.info(f"snake eats turtle food at {self.head.pos()}")
         self.sleep += 0.020
-        self.increase_turtle_odd()
         self.refresh()
 
         if self.sleep > 0.10:
@@ -87,14 +86,13 @@ class Snake:
         self.foodscore +=1
         self.scorz.update_score(self.foodscore)
 
-    def increase_turtle_odd(self):
         if self.foodscore == 4:
             self.very_random_number -= 2
         if self.foodscore == 8:
             self.very_random_number -= 2
         if self.foodscore == 15:
             self.very_random_number -= 1
-            
+        
     def move_up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)
