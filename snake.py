@@ -1,7 +1,6 @@
 from turtle import Turtle
-from food import ScoreBoard
+from food import ScoreBoard, Loggings
 import time
-import logging, sys
 
 UP = 90
 LEFT = 180
@@ -9,15 +8,6 @@ DOWN = 270
 RIGHT = 0
 RAN_1 = -350
 RAN_2 = 350
-
-LOG_LOCATION = "logs/snake.log"
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s', 
-    handlers=[
-        logging.FileHandler(LOG_LOCATION),
-        logging.StreamHandler(sys.stdout)
-        ])
 
 class Snake:
     def __init__(self):
@@ -28,6 +18,8 @@ class Snake:
         self.spawn_snake()
         self.head = self.snakes[0]
         self.scorz = ScoreBoard()
+
+        self.logz = Loggings()
     
     def snake_run(self):
         self.prevx = 0
@@ -64,7 +56,7 @@ class Snake:
         self.snakes.append(es)
 
     def speed_up(self):
-        logging.info(f"snake eats food at {self.head.pos()}")
+        self.logz.info(f"snake eats food at {self.head.pos()}")
         if self.sleep > 0.04:
             self.sleep -= 0.005
         elif self.sleep > 0.02:
@@ -74,7 +66,7 @@ class Snake:
         self.refresh()
 
     def slow_down(self):
-        logging.info(f"snake eats turtle food at {self.head.pos()}")
+        self.logz.info(f"snake eats turtle food at {self.head.pos()}")
         self.sleep += 0.020
         self.refresh()
 
@@ -82,7 +74,7 @@ class Snake:
             self.sleep = 0.10
 
     def refresh(self):
-        logging.info(f"snake speed {round(self.sleep, 3)}")
+        self.logz.info(f"snake speed {round(self.sleep, 3)}")
         self.foodscore +=1
         self.scorz.update_score(self.foodscore)
 
@@ -92,7 +84,17 @@ class Snake:
             self.very_random_number -= 2
         if self.foodscore == 15:
             self.very_random_number -= 1
-        
+
+    def end_game(self):
+        eg = Turtle()
+        eg.penup()
+        eg.color("white")
+        eg.fillcolor("white")
+        eg.hideturtle()
+        eg.goto(-50, 0)
+        eg.write(f"GAME OVER", font=("Arial", 20, "normal"))
+        self.logz.info(f"game over at {self.head.pos()} with score {self.foodscore}")
+
     def move_up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(UP)

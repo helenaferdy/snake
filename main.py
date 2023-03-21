@@ -1,20 +1,12 @@
 from snake import Snake
-from food import Food, FoodTurtle
+from food import Food, FoodTurtle, Loggings, ScoreBoard
+from wall import Wall
 from turtle import Screen
 import random
-import logging, sys
 
 RAN_1 = -350
 RAN_2 = 350
-
-LOG_LOCATION = "logs/snake.log"
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s', 
-    handlers=[
-        logging.FileHandler(LOG_LOCATION),
-        logging.StreamHandler(sys.stdout)
-        ])
+RAINBOW = ["green", "brown", "white", "yellow", "pink", "cyan"]
 
 screen = Screen()
 screen.bgcolor("gray")
@@ -24,32 +16,33 @@ screen.listen()
 snekz = Snake()
 fudz = Food()
 fudz_turtle = FoodTurtle()
+logz = Loggings()
+top_wallz = Wall(0, 360)
+bot_wallz = Wall(0, -390)
 
 game_is_on = True
 while game_is_on:
     snekz.snake_run()
     fudz_turtle.food_counter()
+    fudz_turtle.fillcolor(random.choice(RAINBOW))
 
     if snekz.head.distance(fudz) < 20:
         snekz.speed_up()
         snekz.extend_snake()
-
-        food_randomx = random.randint(RAN_1, RAN_2)
-        food_randomy = random.randint(RAN_1, RAN_2)
-        fudz.spawn_food(food_randomx, food_randomy)
+        fudz.spawn_food(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
 
         randxz = random.randint(1, snekz.very_random_number)
-        logging.info(f"randompoint ({randxz} : {snekz.very_random_number})")
+        logz.info(f"randompoint ({randxz} : {snekz.very_random_number})")
         if randxz == snekz.very_random_number:
-            food_randomx = random.randint(RAN_1, RAN_2)
-            food_randomy = random.randint(RAN_1, RAN_2)
-
-            fudz_turtle.spawn_food(food_randomx, food_randomy)
+            fudz_turtle.spawn_food(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
 
     if snekz.head.distance(fudz_turtle) < 20:
         snekz.slow_down()
         fudz_turtle.spawn_food(-900,-900)
         
+    if snekz.head.ycor() > 335 or snekz.head.ycor() < -375:
+        game_is_on = False
+        snekz.end_game()
     
     screen.onkey(snekz.move_up, "w")
     screen.onkey(snekz.move_left, "a")
