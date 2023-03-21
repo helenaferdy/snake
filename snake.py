@@ -12,6 +12,7 @@ RAN_2 = 350
 class Snake:
     def __init__(self):
         self.foodscore = 0
+        self.very_random_number = 8
         self.spawn_snake()
         self.spawn_food()
         self.spawn_food_turtle()
@@ -41,6 +42,26 @@ class Snake:
         es.goto(self.prevx, self.prevy)
         self.snakes.append(es)
 
+    def speed_up(self):
+        if self.sleep > 0.04:
+            self.sleep -= 0.005
+        elif self.sleep > 0.02:
+            self.sleep -= 0.0025
+        else:
+            self.sleep -= 0.00125
+        self.increade_turtle_odd()
+
+    def slow_down(self):
+        self.sleep += 0.020
+        self.increade_turtle_odd()
+
+    def increade_turtle_odd(self):
+        if self.foodscore == 4:
+            self.very_random_number -= 2
+        if self.foodscore == 8:
+            self.very_random_number -= 2
+        if self.foodscore == 15:
+            self.very_random_number -= 1
 
     def snake_run(self):
         self.prevx = 0
@@ -83,12 +104,15 @@ class Snake:
         
 
     def spawn_food(self):
+        food_randomx = random.randint(RAN_1, RAN_2)
+        food_randomy = random.randint(RAN_1, RAN_2)
+
         self.food = Turtle()
         self.food.penup()
         self.food.shape("circle")
         self.food.shapesize(stretch_len=0.5, stretch_wid=0.5)
         self.food.color("pink")
-        self.food.goto(random.randint(RAN_1, RAN_2), random.randint(RAN_1, RAN_2))
+        self.food.goto(food_randomx, food_randomy)
 
 
     def spawn_food_turtle(self):
