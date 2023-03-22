@@ -10,3 +10,4 @@ class Wall:
         self.penup()
         self.shapesize(1,400)
         self.goto(self.x, self.y)
+

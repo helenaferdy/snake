@@ -31,7 +31,7 @@ while game_is_on:
     fudz_turtle.fillcolor(random.choice(RAINBOW))
 
     for s in snekz.snakes[1:]:
-        if s.distance(snekz.head) < 20:
+        if s.distance(snekz.head) < 5:
             screen.bgcolor("black")
             game_is_on = False
             snekz.end_game()
