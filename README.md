@@ -1,0 +1,1 @@
+A basic snake game made out of boredom.
