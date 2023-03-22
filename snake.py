@@ -18,10 +18,10 @@ class Snake:
         self.spawn_snake()
         self.head = self.snakes[0]
         self.scorz = ScoreBoard()
-
         self.logz = Loggings()
     
     def snake_run(self):
+        time.sleep(round(self.sleep, 3))
         self.prevx = 0
         self.prevy = 0
         for snake in self.snakes:
@@ -32,21 +32,16 @@ class Snake:
                 x, y = self.prevx, self.prevy
                 self.prevx, self.prevy = snake.pos()
                 snake.goto(x, y)
-        time.sleep(round(self.sleep, 3))
+        
+        # for s in self.snakes[1:]:
+        #     if s.distance(self.head) < 20:
+        #         self.end_game()
 
-    def snake_hit_right(self):
+    def snake_teleport(self):
         self.prevx, self.prevy = self.head.pos()
-        self.logz.info(f"snake hit right wall at {self.head.pos()}")
-        self.prevx = self.prevx - (self.prevx*2)
+        self.prevx = self.prevx * -1
+        self.logz.info(f"snake teleports from {self.head.pos()} to {self.prevx, self.prevy}")
         self.head.goto(self.prevx, self.prevy)
-        self.logz.info(f"snake spawns at left wall at {self.head.pos()}")
-
-    def snake_hit_left(self):
-        self.prevx, self.prevy = self.head.pos()
-        self.logz.info(f"snake hit left wall at {self.head.pos()}")
-        self.prevx = self.prevx + (self.prevx*-2)
-        self.head.goto(self.prevx, self.prevy)
-        self.logz.info(f"snake spawns at right wall at {self.head.pos()}")
 
     def spawn_snake(self):
         self.x = 0

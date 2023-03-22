@@ -8,8 +8,8 @@ UP = 90
 LEFT = 180
 DOWN = 270
 RIGHT = 0
-RAN_1 = -350
-RAN_2 = 350
+RAN_1 = -320
+RAN_2 = 320
 RAINBOW = ["green", "brown", "white", "yellow", "pink", "cyan"]
 
 screen = Screen()
@@ -30,6 +30,12 @@ while game_is_on:
     fudz_turtle.food_counter()
     fudz_turtle.fillcolor(random.choice(RAINBOW))
 
+    for s in snekz.snakes[1:]:
+        if s.distance(snekz.head) < 20:
+            screen.bgcolor("black")
+            game_is_on = False
+            snekz.end_game()
+
     if snekz.head.distance(fudz) < 20:
         snekz.speed_up()
         snekz.extend_snake()
@@ -45,14 +51,12 @@ while game_is_on:
         fudz_turtle.spawn_food(-900,-900)
         
     if snekz.head.ycor() > 335 or snekz.head.ycor() < -375:
+        screen.bgcolor("black")
         game_is_on = False
         snekz.end_game()
 
-    if snekz.head.xcor() > 480 and snekz.head.heading() == RIGHT:
-        snekz.snake_hit_right()
-
-    if snekz.head.xcor() < -480 and snekz.head.heading() == LEFT:
-        snekz.snake_hit_left()
+    if snekz.head.xcor() > 480 and snekz.head.heading() == RIGHT or snekz.head.xcor() < -480 and snekz.head.heading() == LEFT:
+        snekz.snake_teleport()
     
     screen.onkey(snekz.move_up, "w")
     screen.onkey(snekz.move_left, "a")
