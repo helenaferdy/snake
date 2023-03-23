@@ -96,8 +96,9 @@ class Snake:
 
     def end_game(self):
         eg = ScoreBoard()
-        eg.goto(-50, 0)
-        eg.write(f"GAME OVER", font=("Arial", 20, "normal"))
+        eg.goto(-100, 0)
+        eg.color("red")
+        eg.write(f"GAME OVER", font=("Arial", 40, "normal"))
         self.logz.info(f"game over at {self.head.pos()} with score {self.foodscore}")
 
     def move_up(self):
