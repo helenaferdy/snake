@@ -16,6 +16,7 @@ screen = Screen()
 screen.bgcolor("gray")
 screen.tracer(0)
 screen.listen()
+screen.title("Helena Snake")
 
 snekz = Snake()
 fudz = Food()

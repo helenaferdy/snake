@@ -246,3 +246,113 @@
 2023-03-23 13:57:53,675 [INFO] game over at (60.00,-380.00) with score 0
 2023-03-23 13:58:10,774 [INFO] game over at (60.00,340.00) with score 0
 2023-03-23 13:58:27,874 [INFO] game over at (180.00,340.00) with score 0
+2023-03-23 14:14:35,521 [INFO] game over at (100.00,340.00) with score 0
+2023-03-23 14:14:49,089 [INFO] game over at (80.00,340.00) with score 0
+2023-03-23 14:15:18,995 [INFO] game over at (100.00,340.00) with score 0
+2023-03-23 14:15:34,561 [INFO] game over at (60.00,340.00) with score 0
+2023-03-23 14:16:03,185 [INFO] game over at (40.00,340.00) with score 0
+2023-03-23 14:16:40,758 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:16:40,759 [INFO] snake speed 0.095
+2023-03-23 14:16:40,761 [INFO] food spawned at -216,-9
+2023-03-23 14:16:40,762 [INFO] randompoint (8 : 8)
+2023-03-23 14:16:40,762 [INFO] turtle food spawned at -61,12
+2023-03-23 14:16:43,893 [INFO] game over at (-80.00,-60.00) with score 1
+2023-03-23 14:16:53,085 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:16:53,085 [INFO] snake speed 0.095
+2023-03-23 14:16:53,098 [INFO] food spawned at 212,-119
+2023-03-23 14:16:53,098 [INFO] randompoint (3 : 8)
+2023-03-23 14:16:57,266 [INFO] snake teleports from (-500.00,-120.00) to (500.0, -120.00000000000003)
+2023-03-23 14:16:58,759 [INFO] snake eats food at (220.00,-120.00)
+2023-03-23 14:16:58,760 [INFO] snake speed 0.09
+2023-03-23 14:16:58,766 [INFO] food spawned at -212,-30
+2023-03-23 14:16:58,766 [INFO] randompoint (4 : 8)
+2023-03-23 14:17:01,435 [INFO] snake eats food at (-200.00,-40.00)
+2023-03-23 14:17:01,435 [INFO] snake speed 0.085
+2023-03-23 14:17:01,447 [INFO] food spawned at -113,278
+2023-03-23 14:17:01,447 [INFO] randompoint (8 : 8)
+2023-03-23 14:17:01,447 [INFO] turtle food spawned at -55,-1
+2023-03-23 14:17:02,873 [INFO] snake eats turtle food at (-60.00,-0.00)
+2023-03-23 14:17:02,873 [INFO] snake speed 0.105
+2023-03-23 14:17:02,875 [INFO] turtle food spawned at -900,-900
+2023-03-23 14:17:05,968 [INFO] game over at (20.00,260.00) with score 4
+2023-03-23 14:17:11,917 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:17:11,917 [INFO] snake speed 0.095
+2023-03-23 14:17:11,931 [INFO] food spawned at -78,-134
+2023-03-23 14:17:11,931 [INFO] randompoint (6 : 8)
+2023-03-23 14:17:14,926 [INFO] snake eats food at (-80.00,-120.00)
+2023-03-23 14:17:14,927 [INFO] snake speed 0.09
+2023-03-23 14:17:14,932 [INFO] food spawned at 13,-60
+2023-03-23 14:17:14,932 [INFO] randompoint (6 : 8)
+2023-03-23 14:17:17,281 [INFO] snake eats food at (20.00,-60.00)
+2023-03-23 14:17:17,282 [INFO] snake speed 0.085
+2023-03-23 14:17:17,293 [INFO] food spawned at -107,46
+2023-03-23 14:17:17,293 [INFO] randompoint (6 : 8)
+2023-03-23 14:17:18,985 [INFO] snake eats food at (-120.00,40.00)
+2023-03-23 14:17:18,986 [INFO] snake speed 0.08
+2023-03-23 14:17:18,988 [INFO] food spawned at 310,29
+2023-03-23 14:17:18,989 [INFO] randompoint (5 : 6)
+2023-03-23 14:17:20,953 [INFO] snake eats food at (300.00,40.00)
+2023-03-23 14:17:20,954 [INFO] snake speed 0.075
+2023-03-23 14:17:20,961 [INFO] food spawned at 66,168
+2023-03-23 14:17:20,961 [INFO] randompoint (3 : 6)
+2023-03-23 14:17:24,175 [INFO] snake eats food at (80.00,160.00)
+2023-03-23 14:17:24,176 [INFO] snake speed 0.07
+2023-03-23 14:17:24,189 [INFO] food spawned at 243,192
+2023-03-23 14:17:24,189 [INFO] randompoint (1 : 6)
+2023-03-23 14:17:26,039 [INFO] snake eats food at (240.00,180.00)
+2023-03-23 14:17:26,039 [INFO] snake speed 0.065
+2023-03-23 14:17:26,043 [INFO] food spawned at 279,64
+2023-03-23 14:17:26,044 [INFO] randompoint (6 : 6)
+2023-03-23 14:17:26,044 [INFO] turtle food spawned at -227,-158
+2023-03-23 14:17:28,928 [INFO] snake teleports from (500.00,-160.00) to (-500.0, -160.0)
+2023-03-23 14:17:29,968 [INFO] snake eats turtle food at (-240.00,-160.00)
+2023-03-23 14:17:29,968 [INFO] snake speed 0.085
+2023-03-23 14:17:29,978 [INFO] turtle food spawned at -900,-900
+2023-03-23 14:17:35,110 [INFO] snake eats food at (260.00,60.00)
+2023-03-23 14:17:35,110 [INFO] snake speed 0.08
+2023-03-23 14:17:35,113 [INFO] food spawned at 133,261
+2023-03-23 14:17:35,113 [INFO] randompoint (3 : 4)
+2023-03-23 14:17:37,545 [INFO] snake eats food at (140.00,260.00)
+2023-03-23 14:17:37,546 [INFO] snake speed 0.075
+2023-03-23 14:17:37,554 [INFO] food spawned at 22,312
+2023-03-23 14:17:37,554 [INFO] randompoint (1 : 4)
+2023-03-23 14:17:40,502 [INFO] snake eats food at (20.00,300.00)
+2023-03-23 14:17:40,502 [INFO] snake speed 0.07
+2023-03-23 14:17:40,515 [INFO] food spawned at -244,-230
+2023-03-23 14:17:40,515 [INFO] randompoint (4 : 4)
+2023-03-23 14:17:40,516 [INFO] turtle food spawned at 124,-101
+2023-03-23 14:17:42,765 [INFO] snake eats turtle food at (140.00,-100.00)
+2023-03-23 14:17:42,766 [INFO] snake speed 0.09
+2023-03-23 14:17:42,769 [INFO] turtle food spawned at -900,-900
+2023-03-23 14:17:45,545 [INFO] snake eats food at (-240.00,-240.00)
+2023-03-23 14:17:45,546 [INFO] snake speed 0.085
+2023-03-23 14:17:45,557 [INFO] food spawned at 128,3
+2023-03-23 14:17:45,557 [INFO] randompoint (2 : 4)
+2023-03-23 14:17:49,600 [INFO] snake eats food at (120.00,0.00)
+2023-03-23 14:17:49,601 [INFO] snake speed 0.08
+2023-03-23 14:17:49,612 [INFO] food spawned at -142,202
+2023-03-23 14:17:49,612 [INFO] randompoint (1 : 4)
+2023-03-23 14:17:50,585 [INFO] game over at (160.00,0.00) with score 14
+2023-03-23 14:18:53,661 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:18:53,663 [INFO] snake speed 0.095
+2023-03-23 14:18:53,676 [INFO] food spawned at -284,72
+2023-03-23 14:18:53,676 [INFO] randompoint (4 : 8)
+2023-03-23 14:18:55,102 [INFO] game over at (-240.00,340.00) with score 1
+2023-03-23 14:19:57,204 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:19:57,206 [INFO] snake speed 0.095
+2023-03-23 14:19:57,209 [INFO] food spawned at -39,4
+2023-03-23 14:19:57,209 [INFO] randompoint (6 : 8)
+2023-03-23 14:19:58,526 [INFO] game over at (-220.00,340.00) with score 1
+2023-03-23 14:21:16,582 [INFO] snake eats food at (-220.00,100.00)
+2023-03-23 14:21:16,583 [INFO] snake speed 0.095
+2023-03-23 14:21:16,595 [INFO] food spawned at -244,-6
+2023-03-23 14:21:16,595 [INFO] randompoint (6 : 8)
+2023-03-23 14:21:18,522 [INFO] snake eats food at (-240.00,0.00)
+2023-03-23 14:21:18,523 [INFO] snake speed 0.09
+2023-03-23 14:21:18,529 [INFO] food spawned at -36,196
+2023-03-23 14:21:18,531 [INFO] randompoint (5 : 8)
+2023-03-23 14:21:22,693 [INFO] snake eats food at (-20.00,200.00)
+2023-03-23 14:21:22,694 [INFO] snake speed 0.085
+2023-03-23 14:21:22,704 [INFO] food spawned at 297,-86
+2023-03-23 14:21:22,704 [INFO] randompoint (7 : 8)
+2023-03-23 14:21:23,397 [INFO] game over at (-20.00,340.00) with score 3
